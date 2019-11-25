@@ -1,0 +1,4 @@
+
+alter view test2 as select username,password,admin_id as role, 'admin' as type from administrator union SELECT dev_username,dev_password,dev_id,'dev' as type from developer union SELECT username,password ,user_id, 'user' as type from user
+
+alter view test2 as select username,password,admin_id as typeid, 'admin' as role from administrator union SELECT dev_username,dev_password,dev_id,'dev' as type from developer union SELECT username,password ,user_id, 'user' as type from user

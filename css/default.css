@@ -1,0 +1,159 @@
+﻿div#wrapper {
+	background-color: #F2C063;
+	margin: auto;
+	width: 100%;
+	min-width:600px;
+	border: 1px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 0.3em;
+	
+}
+
+body {	
+	background-color: #444444;
+	font-family:sans-serif;
+}
+
+div#div_main{
+	position:relative;	
+}
+
+div#div_header{
+	font-size: 2em;
+	font-family: sans-serif;
+	font-weight:700;
+	font-variant:small-caps;
+	padding:0.4em;
+	border-bottom: 1px solid #BF491F;
+}
+
+div#div_subhead{
+	padding-left: 0.4em;
+	color: white;
+	min-height:0.4em;
+	background-color:#F27C38;
+	border-bottom: 1px solid #BF491F;
+}
+
+div#div_menu{
+	width: 25%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	padding-top:1em;
+	border-right: 1px solid #BF491F;
+}
+
+div#div_content{	
+	background-color:white;
+	margin-left:25%;
+	padding:1em 0;
+	height:600px;
+	min-height: 400px;
+}
+
+div#div_footer{
+	border-top: 1px solid #BF491F;
+	text-align:center;
+	background-color: #F27C38;
+	padding:1em;
+}
+
+div#div_footer:after{
+	content: "Copyright ©2019 by I Like It When You Sleep, for You Are So Beautiful Yet So Unaware of It. All rights reserved.";
+}
+
+ul#menu{
+	list-style-type: none;
+	padding:0px;
+	border-top: 1px dotted white;
+}
+
+#menu li{
+	background-color: #F27C38;
+	text-align:center;
+}
+
+#menu a{
+	display:block;
+	padding:0.4em;
+	border-bottom: 1px dotted white;
+	font-weight:bold;
+}
+
+#menu a:link, #menu a:visited{
+	text-decoration: none;
+	color: black;
+	
+}
+
+#menu a:hover, #menu a:active{
+	background-color: #F2C063;
+	border-bottom: 1px solid #BF491F;
+}
+
+h2{
+	color: #BF491F;
+	font-weight:bold;
+	margin-top:0.4em;
+	margin-bottom:0.4em;	
+	border-bottom:1px dotted #E47F5A;
+	padding-left:1em;
+}
+
+.form label{
+	display: block;
+	text-align:right;
+	font-weight:bold;
+	width:200px;
+	float:left;
+	margin-right:10px;
+}
+
+.form input{
+	padding: 4px 2px;
+	margin: 2px 2px 10px 10px;
+}
+
+.form input[type="text"], .form input[type="password"]{
+	display:block;
+	width:200px;	
+}
+.form input[type="submit"]{
+	width:150px;
+}
+
+.form input[type="checkbox"]{
+	display:block;
+}
+.form select{
+	padding: 4px 2px;
+	display:block;
+	margin: 2px 2px 10px 10px;
+}
+
+.center{
+	text-align:center;
+}
+
+.usergroup th{
+	border: 1px solid black;
+	background-color: #F2C063;
+}
+.usergroup td{
+	border: 1px solid black;
+	
+}
+.usergroup table{
+	border-collapse: collapse;
+	margin: 5px;
+}
+
+#div_content a:link, #div_content a:visited{
+	color:black;
+}
+#div_content a:hover{
+	text-decoration: none;
+}
